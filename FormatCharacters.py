@@ -43,7 +43,9 @@ Change since yesterday: +1.50
 uid = "sa"
 pwd = "secret"
 print "%s is not a good password for %s." %(pwd, uid)
-#(userCount, ) 是一个只包含一个元素的 tuple。是的，语法有一点奇怪，但是使用它的理由就是：显示地指出它是一个 tuple，而不是其他。实际上，当定义一个 list、tuple 或 dictionary 时，您可以总是在最后一个元素后面跟上一个逗号，但是当定义一个只包含一个元素的 tuple 时逗号是必须的。如果省略逗号，Python 不会知道 (userCount) 究竟是一个只包含一个元素的 tuple 还是变量 userCount 的值。
+#(userCount, ) 是一个只包含一个元素的 tuple。是的，语法有一点奇怪，但是使用它的理由就是：显示地指出它是一个 tuple，而不是其他。
+#实际上，当定义一个 list、tuple 或 dictionary 时，您可以总是在最后一个元素后面跟上一个逗号，但是当定义一个只包含一个元素的 tuple 时逗号是必须的。
+#如果省略逗号，Python 不会知道 (userCount) 究竟是一个只包含一个元素的 tuple 还是变量 userCount 的值。
 #字符串格式化通过将 %s 替换成 %d 即可处理整数。
 userCount = 6
 print "Users connected: %d" %(userCount, ) 
